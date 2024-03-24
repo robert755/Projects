@@ -1,0 +1,11 @@
+C:\Users\Ciceu\OneDrive\Desktop\AN 3\sem2\informatica industriala\joc5controale\obj\Debug\joc5controale.csproj.AssemblyReference.cache
+C:\Users\Ciceu\OneDrive\Desktop\AN 3\sem2\informatica industriala\joc5controale\obj\Debug\joc5controale.Form1.resources
+C:\Users\Ciceu\OneDrive\Desktop\AN 3\sem2\informatica industriala\joc5controale\obj\Debug\joc5controale.Properties.Resources.resources
+C:\Users\Ciceu\OneDrive\Desktop\AN 3\sem2\informatica industriala\joc5controale\obj\Debug\joc5controale.csproj.GenerateResource.cache
+C:\Users\Ciceu\OneDrive\Desktop\AN 3\sem2\informatica industriala\joc5controale\obj\Debug\joc5controale.csproj.CoreCompileInputs.cache
+C:\Users\Ciceu\OneDrive\Desktop\AN 3\sem2\informatica industriala\joc5controale\bin\Debug\joc5controale.exe.config
+C:\Users\Ciceu\OneDrive\Desktop\AN 3\sem2\informatica industriala\joc5controale\bin\Debug\joc5controale.exe
+C:\Users\Ciceu\OneDrive\Desktop\AN 3\sem2\informatica industriala\joc5controale\bin\Debug\joc5controale.pdb
+C:\Users\Ciceu\OneDrive\Desktop\AN 3\sem2\informatica industriala\joc5controale\obj\Debug\joc5controale.Form2.resources
+C:\Users\Ciceu\OneDrive\Desktop\AN 3\sem2\informatica industriala\joc5controale\obj\Debug\joc5controale.exe
+C:\Users\Ciceu\OneDrive\Desktop\AN 3\sem2\informatica industriala\joc5controale\obj\Debug\joc5controale.pdb
