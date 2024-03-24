@@ -1,0 +1,33 @@
+// Colocviu Informatica aplicata.cpp : This file contains the 'main' function. Program execution begins and ends there.
+//
+
+#include <iostream>
+#include "animal.h"
+#include "animal.cpp"
+using std::cout;
+using std::endl;
+int main()
+{
+    Mamifer animal_de_test(50);
+
+    animal_de_test.creste_mancare(50);
+
+    if (animal_de_test.get_mancare() == 100) {
+        cout << "Test trecut" << endl;
+    }
+
+    animal_de_test.scade_mancare(60);
+
+    if (animal_de_test.get_mancare() == 40) {
+        cout << "Test trecut" << endl;
+    }
+
+    animal_de_test.set_varsta(5);
+    animal_de_test.creste_varsta(10);
+    if (animal_de_test.get_varsta() == 15) {
+        cout << "Test trecut" << endl;
+    }
+
+    return 0;
+}
+
