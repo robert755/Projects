@@ -1,0 +1,12 @@
+C:\Users\Ciceu\OneDrive\Desktop\AN 3\sem2\informatica industriala\Vinyl Store\Vinyl Store\bin\Debug\MusicStore.mdf
+C:\Users\Ciceu\OneDrive\Desktop\AN 3\sem2\informatica industriala\Vinyl Store\Vinyl Store\bin\Debug\MusicStore_log.ldf
+C:\Users\Ciceu\OneDrive\Desktop\AN 3\sem2\informatica industriala\Vinyl Store\Vinyl Store\bin\Debug\Vinyl Store.exe.config
+C:\Users\Ciceu\OneDrive\Desktop\AN 3\sem2\informatica industriala\Vinyl Store\Vinyl Store\bin\Debug\Vinyl Store.exe
+C:\Users\Ciceu\OneDrive\Desktop\AN 3\sem2\informatica industriala\Vinyl Store\Vinyl Store\bin\Debug\Vinyl Store.pdb
+C:\Users\Ciceu\OneDrive\Desktop\AN 3\sem2\informatica industriala\Vinyl Store\Vinyl Store\obj\Debug\Vinyl Store.csproj.AssemblyReference.cache
+C:\Users\Ciceu\OneDrive\Desktop\AN 3\sem2\informatica industriala\Vinyl Store\Vinyl Store\obj\Debug\Vinyl_Store.Properties.Resources.resources
+C:\Users\Ciceu\OneDrive\Desktop\AN 3\sem2\informatica industriala\Vinyl Store\Vinyl Store\obj\Debug\Vinyl Store.csproj.GenerateResource.cache
+C:\Users\Ciceu\OneDrive\Desktop\AN 3\sem2\informatica industriala\Vinyl Store\Vinyl Store\obj\Debug\Vinyl Store.csproj.CoreCompileInputs.cache
+C:\Users\Ciceu\OneDrive\Desktop\AN 3\sem2\informatica industriala\Vinyl Store\Vinyl Store\obj\Debug\Vinyl Store.exe
+C:\Users\Ciceu\OneDrive\Desktop\AN 3\sem2\informatica industriala\Vinyl Store\Vinyl Store\obj\Debug\Vinyl Store.pdb
+C:\Users\Ciceu\OneDrive\Desktop\AN 3\sem2\informatica industriala\Vinyl Store\Vinyl Store\obj\Debug\Vinyl_Store.Form1.resources

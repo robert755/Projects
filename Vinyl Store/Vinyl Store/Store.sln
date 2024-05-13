@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34714.143
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Store", "Store\Store.csproj", "{D3F939E6-ADEE-41B7-8295-D0BA7F2D4AC1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Vinyl Store", "..\Vinyl Store\Vinyl Store\Vinyl Store.csproj", "{4990C9BC-1D3D-431D-965F-74994F0EFC79}"
+	ProjectSection(ProjectDependencies) = postProject
+		{D3F939E6-ADEE-41B7-8295-D0BA7F2D4AC1} = {D3F939E6-ADEE-41B7-8295-D0BA7F2D4AC1}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D3F939E6-ADEE-41B7-8295-D0BA7F2D4AC1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D3F939E6-ADEE-41B7-8295-D0BA7F2D4AC1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D3F939E6-ADEE-41B7-8295-D0BA7F2D4AC1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D3F939E6-ADEE-41B7-8295-D0BA7F2D4AC1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4990C9BC-1D3D-431D-965F-74994F0EFC79}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4990C9BC-1D3D-431D-965F-74994F0EFC79}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4990C9BC-1D3D-431D-965F-74994F0EFC79}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4990C9BC-1D3D-431D-965F-74994F0EFC79}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F313E57D-D012-4CD3-92FF-992115FE25DA}
+	EndGlobalSection
+EndGlobal

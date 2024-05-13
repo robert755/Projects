@@ -1,0 +1,436 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" xmlns:tns="http://tempuri.org/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <s:schema elementFormDefault="qualified" targetNamespace="http://tempuri.org/">
+      <s:element name="HelloWorld">
+        <s:complexType />
+      </s:element>
+      <s:element name="HelloWorldResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="HelloWorldResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetAlbums">
+        <s:complexType />
+      </s:element>
+      <s:element name="GetAlbumsResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetAlbumsResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetSongs">
+        <s:complexType />
+      </s:element>
+      <s:element name="GetSongsResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetSongsResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="AddAlbums">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="Id_Album" type="s:int" />
+            <s:element minOccurs="0" maxOccurs="1" name="NumeAlbum" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="CuloareCd" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="AddAlbumsResponse">
+        <s:complexType />
+      </s:element>
+      <s:element name="AddSongs">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="Id_Cantec" type="s:int" />
+            <s:element minOccurs="0" maxOccurs="1" name="TitluCantec" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Album" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="AddSongsResponse">
+        <s:complexType />
+      </s:element>
+      <s:element name="DeleteAlbum">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="Id_Album" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="DeleteAlbumResponse">
+        <s:complexType />
+      </s:element>
+      <s:element name="DeleteSong">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="Id_Cantec" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="DeleteSongResponse">
+        <s:complexType />
+      </s:element>
+      <s:element name="GetAlbumsByColor">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="color" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetAlbumsByColorResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetAlbumsByColorResult" type="tns:ArrayOfString" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="ArrayOfString">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="unbounded" name="string" nillable="true" type="s:string" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="GetSongsByAlbum">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="albumName" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetSongsByAlbumResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetSongsByAlbumResult" type="tns:ArrayOfString" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="UpdateAlbum">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="Id_Album" type="s:int" />
+            <s:element minOccurs="0" maxOccurs="1" name="NumeAlbum" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="CuloareCd" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="UpdateAlbumResponse">
+        <s:complexType />
+      </s:element>
+    </s:schema>
+  </wsdl:types>
+  <wsdl:message name="HelloWorldSoapIn">
+    <wsdl:part name="parameters" element="tns:HelloWorld" />
+  </wsdl:message>
+  <wsdl:message name="HelloWorldSoapOut">
+    <wsdl:part name="parameters" element="tns:HelloWorldResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetAlbumsSoapIn">
+    <wsdl:part name="parameters" element="tns:GetAlbums" />
+  </wsdl:message>
+  <wsdl:message name="GetAlbumsSoapOut">
+    <wsdl:part name="parameters" element="tns:GetAlbumsResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetSongsSoapIn">
+    <wsdl:part name="parameters" element="tns:GetSongs" />
+  </wsdl:message>
+  <wsdl:message name="GetSongsSoapOut">
+    <wsdl:part name="parameters" element="tns:GetSongsResponse" />
+  </wsdl:message>
+  <wsdl:message name="AddAlbumsSoapIn">
+    <wsdl:part name="parameters" element="tns:AddAlbums" />
+  </wsdl:message>
+  <wsdl:message name="AddAlbumsSoapOut">
+    <wsdl:part name="parameters" element="tns:AddAlbumsResponse" />
+  </wsdl:message>
+  <wsdl:message name="AddSongsSoapIn">
+    <wsdl:part name="parameters" element="tns:AddSongs" />
+  </wsdl:message>
+  <wsdl:message name="AddSongsSoapOut">
+    <wsdl:part name="parameters" element="tns:AddSongsResponse" />
+  </wsdl:message>
+  <wsdl:message name="DeleteAlbumSoapIn">
+    <wsdl:part name="parameters" element="tns:DeleteAlbum" />
+  </wsdl:message>
+  <wsdl:message name="DeleteAlbumSoapOut">
+    <wsdl:part name="parameters" element="tns:DeleteAlbumResponse" />
+  </wsdl:message>
+  <wsdl:message name="DeleteSongSoapIn">
+    <wsdl:part name="parameters" element="tns:DeleteSong" />
+  </wsdl:message>
+  <wsdl:message name="DeleteSongSoapOut">
+    <wsdl:part name="parameters" element="tns:DeleteSongResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetAlbumsByColorSoapIn">
+    <wsdl:part name="parameters" element="tns:GetAlbumsByColor" />
+  </wsdl:message>
+  <wsdl:message name="GetAlbumsByColorSoapOut">
+    <wsdl:part name="parameters" element="tns:GetAlbumsByColorResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetSongsByAlbumSoapIn">
+    <wsdl:part name="parameters" element="tns:GetSongsByAlbum" />
+  </wsdl:message>
+  <wsdl:message name="GetSongsByAlbumSoapOut">
+    <wsdl:part name="parameters" element="tns:GetSongsByAlbumResponse" />
+  </wsdl:message>
+  <wsdl:message name="UpdateAlbumSoapIn">
+    <wsdl:part name="parameters" element="tns:UpdateAlbum" />
+  </wsdl:message>
+  <wsdl:message name="UpdateAlbumSoapOut">
+    <wsdl:part name="parameters" element="tns:UpdateAlbumResponse" />
+  </wsdl:message>
+  <wsdl:portType name="WebService1Soap">
+    <wsdl:operation name="HelloWorld">
+      <wsdl:input message="tns:HelloWorldSoapIn" />
+      <wsdl:output message="tns:HelloWorldSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetAlbums">
+      <wsdl:input message="tns:GetAlbumsSoapIn" />
+      <wsdl:output message="tns:GetAlbumsSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetSongs">
+      <wsdl:input message="tns:GetSongsSoapIn" />
+      <wsdl:output message="tns:GetSongsSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="AddAlbums">
+      <wsdl:input message="tns:AddAlbumsSoapIn" />
+      <wsdl:output message="tns:AddAlbumsSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="AddSongs">
+      <wsdl:input message="tns:AddSongsSoapIn" />
+      <wsdl:output message="tns:AddSongsSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="DeleteAlbum">
+      <wsdl:input message="tns:DeleteAlbumSoapIn" />
+      <wsdl:output message="tns:DeleteAlbumSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="DeleteSong">
+      <wsdl:input message="tns:DeleteSongSoapIn" />
+      <wsdl:output message="tns:DeleteSongSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetAlbumsByColor">
+      <wsdl:input message="tns:GetAlbumsByColorSoapIn" />
+      <wsdl:output message="tns:GetAlbumsByColorSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetSongsByAlbum">
+      <wsdl:input message="tns:GetSongsByAlbumSoapIn" />
+      <wsdl:output message="tns:GetSongsByAlbumSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="UpdateAlbum">
+      <wsdl:input message="tns:UpdateAlbumSoapIn" />
+      <wsdl:output message="tns:UpdateAlbumSoapOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="WebService1Soap" type="tns:WebService1Soap">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="HelloWorld">
+      <soap:operation soapAction="http://tempuri.org/HelloWorld" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetAlbums">
+      <soap:operation soapAction="http://tempuri.org/GetAlbums" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetSongs">
+      <soap:operation soapAction="http://tempuri.org/GetSongs" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="AddAlbums">
+      <soap:operation soapAction="http://tempuri.org/AddAlbums" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="AddSongs">
+      <soap:operation soapAction="http://tempuri.org/AddSongs" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DeleteAlbum">
+      <soap:operation soapAction="http://tempuri.org/DeleteAlbum" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DeleteSong">
+      <soap:operation soapAction="http://tempuri.org/DeleteSong" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetAlbumsByColor">
+      <soap:operation soapAction="http://tempuri.org/GetAlbumsByColor" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetSongsByAlbum">
+      <soap:operation soapAction="http://tempuri.org/GetSongsByAlbum" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UpdateAlbum">
+      <soap:operation soapAction="http://tempuri.org/UpdateAlbum" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="WebService1Soap12" type="tns:WebService1Soap">
+    <soap12:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="HelloWorld">
+      <soap12:operation soapAction="http://tempuri.org/HelloWorld" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetAlbums">
+      <soap12:operation soapAction="http://tempuri.org/GetAlbums" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetSongs">
+      <soap12:operation soapAction="http://tempuri.org/GetSongs" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="AddAlbums">
+      <soap12:operation soapAction="http://tempuri.org/AddAlbums" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="AddSongs">
+      <soap12:operation soapAction="http://tempuri.org/AddSongs" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DeleteAlbum">
+      <soap12:operation soapAction="http://tempuri.org/DeleteAlbum" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DeleteSong">
+      <soap12:operation soapAction="http://tempuri.org/DeleteSong" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetAlbumsByColor">
+      <soap12:operation soapAction="http://tempuri.org/GetAlbumsByColor" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetSongsByAlbum">
+      <soap12:operation soapAction="http://tempuri.org/GetSongsByAlbum" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UpdateAlbum">
+      <soap12:operation soapAction="http://tempuri.org/UpdateAlbum" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="WebService1">
+    <wsdl:port name="WebService1Soap" binding="tns:WebService1Soap">
+      <soap:address location="https://localhost:44360/WebService1.asmx" />
+    </wsdl:port>
+    <wsdl:port name="WebService1Soap12" binding="tns:WebService1Soap12">
+      <soap12:address location="https://localhost:44360/WebService1.asmx" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>
