@@ -1,0 +1,144 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  margin-top: 100px;
+}
+
+#app {
+  width: 90%;
+  margin: 0 auto 0 auto;
+}
+
+.user-list {
+  padding: 0px;
+  list-style-type: none;
+  margin-bottom: 30 px;
+}
+
+.title {
+  background-color: #c00000;
+  padding: 15px 15px 5px 10px;
+  color: white;
+  font-size: 30px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 9999;
+}
+
+.user-row-header {
+  margin-top: 30px;
+  padding: 20px 0px 5px 0px;
+  text-align: left;
+  font-weight: bold;
+  border-bottom: 2px solid  #c00000;
+  background-color: #c00000;
+  color:white;
+  font-family: "Lucida Console", "Courier New", monospace;
+  border:1px solid grey;
+}
+
+.user-row {
+  border: 1px solid grey;
+  padding: 15px 0px 5px 0px;
+  text-align: left;
+  
+}
+
+.user-row:hover {
+  background-color: rgba(128, 128, 128, 0.325);
+  cursor: pointer;
+}
+
+.user-album {
+  width: 30%;
+  display: inline-block;
+}
+
+.user-artist {
+  width: 30%;
+  display: inline-block;
+}
+.user-price {
+  width: 30%;
+  display: inline-block;
+}
+.process-button {
+  background-color: #c00000; 
+  color: white;
+  padding: 10px 10px;
+  text-align: center;
+  display: inline-block;
+  font-size: 13px;
+  margin: 4px 4px;
+
+}
+input[type="text"] {
+  width: 50%;
+  padding: 10px 20px;
+  margin: 3px 4px;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+}
+#create {
+  width: 30%;
+  text-align: left; 
+}
+#delete{
+  margin-top: 30px;
+  width: 30%;
+  text-align: left; 
+}
+#update{
+  width: 30%;
+  text-align: left;
+  position: relative;
+  left:1100px;
+  bottom: 50px;
+}
+/* Stilizare pentru titlu */
+.details h1 {
+  background-color: #c00000;
+  padding: 15px 15px 5px 10px;
+  color: white;
+  font-size: 30px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 9999;
+}
+
+/* Stilizare pentru fiecare detaliu (album, artist, preț) */
+.details div {
+  margin-bottom: 10px; /* Spațiu între fiecare detaliu */
+  font-weight: bold; /* Text îngroșat */
+}
+
+/* Stilizare pentru ID-urile specifice */
+#album, #artist, #price {
+  font-weight: bold; /* Text îngroșat */
+  font-size: larger;
+  text-align: center;
+}
+
+/* Stilizare pentru imagine */
+.image {
+  max-width: 100%; /* Lățime maximă a imaginii */
+  border-radius: 8px; /* Colțuri rotunjite */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Umbră */
+  display: block; /* Face imaginea un element de bloc */
+  margin: 0 auto 20px; /* Centrare pe orizontală și adăugare spațiu la partea de jos */
+}
+/* Stilizare pentru descriere */
+.description {
+  font-family: 'Roboto', sans-serif;
+  max-width: 100%; /* Lățime maximă a imaginii */
+  border-radius: 8px; /* Colțuri rotunjite */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Umbră */
+  display: block; /* Face imaginea un element de bloc */
+  margin: 0 auto 20px; /* Centrare pe orizontală și adăugare spațiu la partea de jos */
+  text-align: center;
+  font-size: large;
+}
