@@ -4,6 +4,7 @@ var users = require("./src/users.json");
 api.get("/", function (request, response) {
   response.json("NodeJS REST API");
 });
+api.use(require('body-parser').json());
 
 // http://localhost:3000/
 
@@ -24,6 +25,19 @@ api.delete("/deleteUser",function(request,response){
   users.splice(index,1);
   response.json(users);
 })
+api.put("/updateUser", function (request, response) {
+  const index = request.body.index;
+  const album = request.body.album ? request.body.album.trim() : null;
+  const artist = request.body.artist ? request.body.artist.trim() : null;
+  const price = request.body.price ? request.body.price.trim() : null;
+
+  if (index >= 0 && index < users.length) {
+    if (album) users[index].album = album;
+    if (artist) users[index].artist = artist;
+    if (price) users[index].price = price;
+    response.json(users[index]);
+  }
+});
 
 
 // http://localhost:3000/

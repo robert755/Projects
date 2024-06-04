@@ -35,7 +35,7 @@ function run() {
               console.error("Error adding user:", error);
             });
         } else {
-          alert("Please enter valid name and city!");
+          alert("Please enter valid Album name!");
         }
       },
 
@@ -55,6 +55,24 @@ function run() {
         } else {
           alert("User not found!");
         }
+      },
+      updateAlbum() {
+        const index = this.selectedAlbumToUpdate;
+        const updatedUser = {
+          index: index,
+          artist: this.updatedArtist.trim(),
+          price: this.updatedPrice.trim()
+        };
+        axios.put("http://localhost:3000/updateUser", updatedUser)
+          .then(response => {
+            this.users[index] = response.data;
+            this.selectedAlbumToUpdate = null;
+            this.updatedArtist = "";
+            this.updatedPrice = "";
+          })
+          .catch(error => {
+            console.error("Error updating user:", error);
+          });
       }
     }
   });

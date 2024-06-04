@@ -49,12 +49,14 @@
       <button class="process-button" v-on:click="deleteUserByAlbum">Delete</button>
     </div>
 
-<div id="update">
-  <input type="text" v-model="updatedAlbum" placeholder="Update Album">
-  <input type="text" v-model="updatedArtist" placeholder="Update Artist">
-  <input type="text" v-model="updatedPrice" placeholder="Update Price">
-  <button class="process-button" v-on:click="UpdateAlbum(index)">Update</button>
-</div>
+    <div id="update">
+      <select v-model="selectedAlbumToUpdate">
+        <option v-for="(user, index) in users" :value="index">{{ user.album }}</option>
+      </select>
+      <input type="text" v-model="updatedArtist" placeholder="Update Artist">
+      <input type="text" v-model="updatedPrice" placeholder="Update Price">
+      <button class="process-button" v-on:click="updateAlbum">Update</button>
+    </div>
   </div>
 
   <script src="src/app.js"></script>

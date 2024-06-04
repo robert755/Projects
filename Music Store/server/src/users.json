@@ -1,0 +1,32 @@
+[
+  {
+      "album": "Nevermind",
+      "artist": "Nirvana",
+      "price": "119.99"
+  },
+  {
+      "album": "Melodrama",
+      "artist": "Lorde",
+      "price": "49.99"
+  },
+  {
+      "album": "HIT ME HARD AND SOFT",
+      "artist": "Billie Eilish",
+      "price": "99.99"
+  },
+  {
+      "album": "For All The Dogs",
+      "artist": "Drake",
+      "price": "74.99"
+  },
+  {
+      "album": "The Slow Rush",
+      "artist": "Tame Impala",
+      "price": "119.99"
+  },
+  {
+      "album": "AM",
+      "artist": "Arctic Monkeys",
+      "price": "100.00"
+  }
+]
