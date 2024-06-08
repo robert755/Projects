@@ -1,0 +1,241 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Ciceu\\OneDrive\\Desktop\\AN 3\\sem2\\informatica industriala\\EmployeeManagementSystem\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{8E6889CC-BDDD-4781-89B3-AD66375D59F9}|EmployeeManagementSystem\\EmployeeManagementSystem.csproj|c:\\users\\ciceu\\onedrive\\desktop\\an 3\\sem2\\informatica industriala\\employeemanagementsystem\\employeemanagementsystem\\views\\employees\\updateemployee.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8E6889CC-BDDD-4781-89B3-AD66375D59F9}|EmployeeManagementSystem\\EmployeeManagementSystem.csproj|solutionrelative:employeemanagementsystem\\views\\employees\\updateemployee.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8E6889CC-BDDD-4781-89B3-AD66375D59F9}|EmployeeManagementSystem\\EmployeeManagementSystem.csproj|c:\\users\\ciceu\\onedrive\\desktop\\an 3\\sem2\\informatica industriala\\employeemanagementsystem\\employeemanagementsystem\\controllers\\employeescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8E6889CC-BDDD-4781-89B3-AD66375D59F9}|EmployeeManagementSystem\\EmployeeManagementSystem.csproj|solutionrelative:employeemanagementsystem\\controllers\\employeescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8E6889CC-BDDD-4781-89B3-AD66375D59F9}|EmployeeManagementSystem\\EmployeeManagementSystem.csproj|c:\\users\\ciceu\\onedrive\\desktop\\an 3\\sem2\\informatica industriala\\employeemanagementsystem\\employeemanagementsystem\\views\\employees\\employeelist.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8E6889CC-BDDD-4781-89B3-AD66375D59F9}|EmployeeManagementSystem\\EmployeeManagementSystem.csproj|solutionrelative:employeemanagementsystem\\views\\employees\\employeelist.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8E6889CC-BDDD-4781-89B3-AD66375D59F9}|EmployeeManagementSystem\\EmployeeManagementSystem.csproj|c:\\users\\ciceu\\onedrive\\desktop\\an 3\\sem2\\informatica industriala\\employeemanagementsystem\\employeemanagementsystem\\models\\updateemployeeviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8E6889CC-BDDD-4781-89B3-AD66375D59F9}|EmployeeManagementSystem\\EmployeeManagementSystem.csproj|solutionrelative:employeemanagementsystem\\models\\updateemployeeviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8E6889CC-BDDD-4781-89B3-AD66375D59F9}|EmployeeManagementSystem\\EmployeeManagementSystem.csproj|c:\\users\\ciceu\\onedrive\\desktop\\an 3\\sem2\\informatica industriala\\employeemanagementsystem\\employeemanagementsystem\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8E6889CC-BDDD-4781-89B3-AD66375D59F9}|EmployeeManagementSystem\\EmployeeManagementSystem.csproj|solutionrelative:employeemanagementsystem\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8E6889CC-BDDD-4781-89B3-AD66375D59F9}|EmployeeManagementSystem\\EmployeeManagementSystem.csproj|c:\\users\\ciceu\\onedrive\\desktop\\an 3\\sem2\\informatica industriala\\employeemanagementsystem\\employeemanagementsystem\\models\\addemployeeviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8E6889CC-BDDD-4781-89B3-AD66375D59F9}|EmployeeManagementSystem\\EmployeeManagementSystem.csproj|solutionrelative:employeemanagementsystem\\models\\addemployeeviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8E6889CC-BDDD-4781-89B3-AD66375D59F9}|EmployeeManagementSystem\\EmployeeManagementSystem.csproj|c:\\users\\ciceu\\onedrive\\desktop\\an 3\\sem2\\informatica industriala\\employeemanagementsystem\\employeemanagementsystem\\models\\domain\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8E6889CC-BDDD-4781-89B3-AD66375D59F9}|EmployeeManagementSystem\\EmployeeManagementSystem.csproj|solutionrelative:employeemanagementsystem\\models\\domain\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8E6889CC-BDDD-4781-89B3-AD66375D59F9}|EmployeeManagementSystem\\EmployeeManagementSystem.csproj|c:\\users\\ciceu\\onedrive\\desktop\\an 3\\sem2\\informatica industriala\\employeemanagementsystem\\employeemanagementsystem\\views\\employees\\add.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8E6889CC-BDDD-4781-89B3-AD66375D59F9}|EmployeeManagementSystem\\EmployeeManagementSystem.csproj|solutionrelative:employeemanagementsystem\\views\\employees\\add.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8E6889CC-BDDD-4781-89B3-AD66375D59F9}|EmployeeManagementSystem\\EmployeeManagementSystem.csproj|c:\\users\\ciceu\\onedrive\\desktop\\an 3\\sem2\\informatica industriala\\employeemanagementsystem\\employeemanagementsystem\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8E6889CC-BDDD-4781-89B3-AD66375D59F9}|EmployeeManagementSystem\\EmployeeManagementSystem.csproj|solutionrelative:employeemanagementsystem\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8E6889CC-BDDD-4781-89B3-AD66375D59F9}|EmployeeManagementSystem\\EmployeeManagementSystem.csproj|c:\\users\\ciceu\\onedrive\\desktop\\an 3\\sem2\\informatica industriala\\employeemanagementsystem\\employeemanagementsystem\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{8E6889CC-BDDD-4781-89B3-AD66375D59F9}|EmployeeManagementSystem\\EmployeeManagementSystem.csproj|solutionrelative:employeemanagementsystem\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8E6889CC-BDDD-4781-89B3-AD66375D59F9}|EmployeeManagementSystem\\EmployeeManagementSystem.csproj|c:\\users\\ciceu\\onedrive\\desktop\\an 3\\sem2\\informatica industriala\\employeemanagementsystem\\employeemanagementsystem\\data\\employeemanagementsystemdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8E6889CC-BDDD-4781-89B3-AD66375D59F9}|EmployeeManagementSystem\\EmployeeManagementSystem.csproj|solutionrelative:employeemanagementsystem\\data\\employeemanagementsystemdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8E6889CC-BDDD-4781-89B3-AD66375D59F9}|EmployeeManagementSystem\\EmployeeManagementSystem.csproj|c:\\users\\ciceu\\onedrive\\desktop\\an 3\\sem2\\informatica industriala\\employeemanagementsystem\\employeemanagementsystem\\migrations\\20240423094306_initial migration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8E6889CC-BDDD-4781-89B3-AD66375D59F9}|EmployeeManagementSystem\\EmployeeManagementSystem.csproj|solutionrelative:employeemanagementsystem\\migrations\\20240423094306_initial migration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8E6889CC-BDDD-4781-89B3-AD66375D59F9}|EmployeeManagementSystem\\EmployeeManagementSystem.csproj|c:\\users\\ciceu\\onedrive\\desktop\\an 3\\sem2\\informatica industriala\\employeemanagementsystem\\employeemanagementsystem\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8E6889CC-BDDD-4781-89B3-AD66375D59F9}|EmployeeManagementSystem\\EmployeeManagementSystem.csproj|solutionrelative:employeemanagementsystem\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ErrorViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\Ciceu\\OneDrive\\Desktop\\AN 3\\sem2\\informatica industriala\\EmployeeManagementSystem\\EmployeeManagementSystem\\Models\\ErrorViewModel.cs",
+              "RelativeDocumentMoniker": "EmployeeManagementSystem\\Models\\ErrorViewModel.cs",
+              "ToolTip": "C:\\Users\\Ciceu\\OneDrive\\Desktop\\AN 3\\sem2\\informatica industriala\\EmployeeManagementSystem\\EmployeeManagementSystem\\Models\\ErrorViewModel.cs",
+              "RelativeToolTip": "EmployeeManagementSystem\\Models\\ErrorViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-23T11:34:40.018Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "UpdateEmployee.cshtml",
+              "DocumentMoniker": "C:\\Users\\Ciceu\\OneDrive\\Desktop\\AN 3\\sem2\\informatica industriala\\EmployeeManagementSystem\\EmployeeManagementSystem\\Views\\Employees\\UpdateEmployee.cshtml",
+              "RelativeDocumentMoniker": "EmployeeManagementSystem\\Views\\Employees\\UpdateEmployee.cshtml",
+              "ToolTip": "C:\\Users\\Ciceu\\OneDrive\\Desktop\\AN 3\\sem2\\informatica industriala\\EmployeeManagementSystem\\EmployeeManagementSystem\\Views\\Employees\\UpdateEmployee.cshtml",
+              "RelativeToolTip": "EmployeeManagementSystem\\Views\\Employees\\UpdateEmployee.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAABGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-23T11:30:42.955Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "UpdateEmployeeViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\Ciceu\\OneDrive\\Desktop\\AN 3\\sem2\\informatica industriala\\EmployeeManagementSystem\\EmployeeManagementSystem\\Models\\UpdateEmployeeViewModel.cs",
+              "RelativeDocumentMoniker": "EmployeeManagementSystem\\Models\\UpdateEmployeeViewModel.cs",
+              "ToolTip": "C:\\Users\\Ciceu\\OneDrive\\Desktop\\AN 3\\sem2\\informatica industriala\\EmployeeManagementSystem\\EmployeeManagementSystem\\Models\\UpdateEmployeeViewModel.cs",
+              "RelativeToolTip": "EmployeeManagementSystem\\Models\\UpdateEmployeeViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAvAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-23T11:29:20.64Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "EmployeeList.cshtml",
+              "DocumentMoniker": "C:\\Users\\Ciceu\\OneDrive\\Desktop\\AN 3\\sem2\\informatica industriala\\EmployeeManagementSystem\\EmployeeManagementSystem\\Views\\Employees\\EmployeeList.cshtml",
+              "RelativeDocumentMoniker": "EmployeeManagementSystem\\Views\\Employees\\EmployeeList.cshtml",
+              "ToolTip": "C:\\Users\\Ciceu\\OneDrive\\Desktop\\AN 3\\sem2\\informatica industriala\\EmployeeManagementSystem\\EmployeeManagementSystem\\Views\\Employees\\EmployeeList.cshtml",
+              "RelativeToolTip": "EmployeeManagementSystem\\Views\\Employees\\EmployeeList.cshtml",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABgAAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-23T11:03:32.011Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Add.cshtml",
+              "DocumentMoniker": "C:\\Users\\Ciceu\\OneDrive\\Desktop\\AN 3\\sem2\\informatica industriala\\EmployeeManagementSystem\\EmployeeManagementSystem\\Views\\Employees\\Add.cshtml",
+              "RelativeDocumentMoniker": "EmployeeManagementSystem\\Views\\Employees\\Add.cshtml",
+              "ToolTip": "C:\\Users\\Ciceu\\OneDrive\\Desktop\\AN 3\\sem2\\informatica industriala\\EmployeeManagementSystem\\EmployeeManagementSystem\\Views\\Employees\\Add.cshtml",
+              "RelativeToolTip": "EmployeeManagementSystem\\Views\\Employees\\Add.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAATAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-23T10:02:58.801Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\Ciceu\\OneDrive\\Desktop\\AN 3\\sem2\\informatica industriala\\EmployeeManagementSystem\\EmployeeManagementSystem\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "EmployeeManagementSystem\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\Ciceu\\OneDrive\\Desktop\\AN 3\\sem2\\informatica industriala\\EmployeeManagementSystem\\EmployeeManagementSystem\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "EmployeeManagementSystem\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAABkAAAB8AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-23T09:57:17.421Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "AddEmployeeViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\Ciceu\\OneDrive\\Desktop\\AN 3\\sem2\\informatica industriala\\EmployeeManagementSystem\\EmployeeManagementSystem\\Models\\AddEmployeeViewModel.cs",
+              "RelativeDocumentMoniker": "EmployeeManagementSystem\\Models\\AddEmployeeViewModel.cs",
+              "ToolTip": "C:\\Users\\Ciceu\\OneDrive\\Desktop\\AN 3\\sem2\\informatica industriala\\EmployeeManagementSystem\\EmployeeManagementSystem\\Models\\AddEmployeeViewModel.cs",
+              "RelativeToolTip": "EmployeeManagementSystem\\Models\\AddEmployeeViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-23T09:55:19.837Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "EmployeesController.cs",
+              "DocumentMoniker": "C:\\Users\\Ciceu\\OneDrive\\Desktop\\AN 3\\sem2\\informatica industriala\\EmployeeManagementSystem\\EmployeeManagementSystem\\Controllers\\EmployeesController.cs",
+              "RelativeDocumentMoniker": "EmployeeManagementSystem\\Controllers\\EmployeesController.cs",
+              "ToolTip": "C:\\Users\\Ciceu\\OneDrive\\Desktop\\AN 3\\sem2\\informatica industriala\\EmployeeManagementSystem\\EmployeeManagementSystem\\Controllers\\EmployeesController.cs",
+              "RelativeToolTip": "EmployeeManagementSystem\\Controllers\\EmployeesController.cs",
+              "ViewState": "AQIAAD4AAAAAAAAAAAAmwE8AAAAOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-23T09:51:50.895Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "20240423094306_Initial Migration.cs",
+              "DocumentMoniker": "C:\\Users\\Ciceu\\OneDrive\\Desktop\\AN 3\\sem2\\informatica industriala\\EmployeeManagementSystem\\EmployeeManagementSystem\\Migrations\\20240423094306_Initial Migration.cs",
+              "RelativeDocumentMoniker": "EmployeeManagementSystem\\Migrations\\20240423094306_Initial Migration.cs",
+              "ToolTip": "C:\\Users\\Ciceu\\OneDrive\\Desktop\\AN 3\\sem2\\informatica industriala\\EmployeeManagementSystem\\EmployeeManagementSystem\\Migrations\\20240423094306_Initial Migration.cs",
+              "RelativeToolTip": "EmployeeManagementSystem\\Migrations\\20240423094306_Initial Migration.cs",
+              "ViewState": "AQIAABAAAAAAAAAAAAAQwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-23T09:43:06.678Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "C:\\Users\\Ciceu\\OneDrive\\Desktop\\AN 3\\sem2\\informatica industriala\\EmployeeManagementSystem\\EmployeeManagementSystem\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "EmployeeManagementSystem\\appsettings.Development.json",
+              "ToolTip": "C:\\Users\\Ciceu\\OneDrive\\Desktop\\AN 3\\sem2\\informatica industriala\\EmployeeManagementSystem\\EmployeeManagementSystem\\appsettings.Development.json",
+              "RelativeToolTip": "EmployeeManagementSystem\\appsettings.Development.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-04-23T09:33:00.362Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "EmployeeManagementSystemDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\Ciceu\\OneDrive\\Desktop\\AN 3\\sem2\\informatica industriala\\EmployeeManagementSystem\\EmployeeManagementSystem\\Data\\EmployeeManagementSystemDbContext.cs",
+              "RelativeDocumentMoniker": "EmployeeManagementSystem\\Data\\EmployeeManagementSystemDbContext.cs",
+              "ToolTip": "C:\\Users\\Ciceu\\OneDrive\\Desktop\\AN 3\\sem2\\informatica industriala\\EmployeeManagementSystem\\EmployeeManagementSystem\\Data\\EmployeeManagementSystemDbContext.cs",
+              "RelativeToolTip": "EmployeeManagementSystem\\Data\\EmployeeManagementSystemDbContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAA2AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-23T09:22:59.86Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Employee.cs",
+              "DocumentMoniker": "C:\\Users\\Ciceu\\OneDrive\\Desktop\\AN 3\\sem2\\informatica industriala\\EmployeeManagementSystem\\EmployeeManagementSystem\\Models\\Domain\\Employee.cs",
+              "RelativeDocumentMoniker": "EmployeeManagementSystem\\Models\\Domain\\Employee.cs",
+              "ToolTip": "C:\\Users\\Ciceu\\OneDrive\\Desktop\\AN 3\\sem2\\informatica industriala\\EmployeeManagementSystem\\EmployeeManagementSystem\\Models\\Domain\\Employee.cs",
+              "RelativeToolTip": "EmployeeManagementSystem\\Models\\Domain\\Employee.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-23T09:19:42.495Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Ciceu\\OneDrive\\Desktop\\AN 3\\sem2\\informatica industriala\\EmployeeManagementSystem\\EmployeeManagementSystem\\Program.cs",
+              "RelativeDocumentMoniker": "EmployeeManagementSystem\\Program.cs",
+              "ToolTip": "C:\\Users\\Ciceu\\OneDrive\\Desktop\\AN 3\\sem2\\informatica industriala\\EmployeeManagementSystem\\EmployeeManagementSystem\\Program.cs",
+              "RelativeToolTip": "EmployeeManagementSystem\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-23T09:11:56.726Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
